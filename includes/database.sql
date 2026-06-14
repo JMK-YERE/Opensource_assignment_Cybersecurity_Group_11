@@ -27,10 +27,10 @@ CREATE TABLE IF NOT EXISTS users (
 
 -- Default admin user (password: admin123)
 INSERT INTO users (username, email, password, role) VALUES
-('admin', 'admin@system.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
+('admin','JOSEPH', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
 
 -- Sample incidents
 INSERT INTO incidents (incident_id, title, description, reporter, date_reported, status) VALUES
-('SEC-20240614-001', 'Data Breach', 'Customer database accessed by unauthorized user', 'John Doe', NOW(), 'Critical'),
-('SEC-20240614-002', 'Phishing Attack', 'Employees received suspicious emails', 'Jane Smith', NOW(), 'Under Investigation'),
-('SEC-20240614-003', 'Ransomware Attempt', 'Ransomware detected but blocked', 'Security Team', NOW(), 'Resolved');
+('SEC-20240614-001', 'Data Breach', 'Customer database accessed by unauthorized user', 'Baharia nkasi', NOW(), 'Critical'),
+('SEC-20240614-002', 'Phishing Attack', 'Employees received suspicious emails', 'Jackline', NOW(), 'Under Investigation'),
+('SEC-20240614-003', 'Ransomware Attempt', 'Ransomware detected but blocked', 'dominick', NOW(), 'Resolved');
