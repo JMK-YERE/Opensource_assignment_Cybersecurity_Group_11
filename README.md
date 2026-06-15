@@ -7,10 +7,8 @@ This system allows cybersecurity professionals to record security incidents, dis
 
 ## Degree Program
 **Cyber Security and Digital Forensics Engineering**
-
 ## Group Number
 **11**
-
 ## Features
 - ✅ User registration and login (User Management Module)
 - ✅ Record security incidents with unique ID
