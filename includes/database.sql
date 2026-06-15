@@ -31,6 +31,6 @@ INSERT INTO users (username, email, password, role) VALUES
 
 -- Sample incidents
 INSERT INTO incidents (incident_id, title, description, reporter, date_reported, status) VALUES
-('SEC-20240614-001', 'Data Breach', 'Customer database accessed by unauthorized user', 'Baharia nkasi', NOW(), 'Critical'),
-('SEC-20240614-002', 'Phishing Attack', 'Employees received suspicious emails', 'Jackline', NOW(), 'Under Investigation'),
-('SEC-20240614-003', 'Ransomware Attempt', 'Ransomware detected but blocked', 'dominick', NOW(), 'Resolved');
+('001', 'Data Breach', 'Customer database accessed by unauthorized user', 'Baharia nkasi', NOW(), 'Critical'),
+('002', 'Phishing Attack', 'Employees received suspicious emails', 'Jackline', NOW(), 'Under Investigation'),
+('003', 'Ransomware Attempt', 'Ransomware detected but blocked', 'dominick', NOW(), 'Resolved');
