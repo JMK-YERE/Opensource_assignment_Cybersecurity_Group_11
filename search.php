@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         <form method="POST">
             <label>Enter Incident ID:</label>
-            <input type="text" name="incident_id" placeholder="Example: SEC-20240614-123" value="<?php echo $search_id; ?>">
+            <input type="text" name="incident_id" placeholder="Example: 012" value="<?php echo $search_id; ?>">
             <button type="submit">Search</button>
         </form>
         
